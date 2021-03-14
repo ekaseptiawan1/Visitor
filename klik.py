@@ -25,7 +25,7 @@ useragent = ['Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)',
                 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [en]']
  
 referer = ['http://google.com','http://bing.com','http://facebook.com','http://twitter.com']
-link_invation= 'http://www.jalantikus.com'
+link_invation= 'https://berbagi-tutorual.blogspot.com/2021/03/cara-mengakses-deep-web.html'
  
 def Autoclicker(proxy1):
     try:
@@ -37,7 +37,7 @@ def Autoclicker(proxy1):
                                                 ('Referer', random.choice(referer))]
         urllib2.install_opener(opener)
         f = urllib2.urlopen(link_invation)
-        if "http://www.jalantikus.com" in f.read():
+        if "https://berbagi-tutorual.blogspot.com/2021/03/cara-mengakses-deep-web.html" in f.read():
            print "[*] Link Berhasil Di Kunjungi ..."
         else:
            print "[*] Link gagal di kunjungi !"
